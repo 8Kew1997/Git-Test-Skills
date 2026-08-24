@@ -4,11 +4,12 @@ int main()
 {
     float price = 39.0, sum, vat = 0.07, buy, discount;
     int piece;
-    printf("=========> IT Donalds <=========\n");
 
     printf("Fried chicken 39 Baht/piece\n");
     printf("Which piece do you want to buy? : ");
     scanf("%d", &piece);
+    printf("\n=========> IT Donalds <=========\n");
+
     buy = price * piece;
 
     if (buy > 1000)
