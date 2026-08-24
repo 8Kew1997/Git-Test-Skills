@@ -1,2 +1,8 @@
-.vscode
+# ไม่เอาไฟล์รัน (Executable) ที่คอมไพล์ออกมาแล้ว
 *.exe
+*.out
+*.o
+
+# ไม่เอาโฟลเดอร์สำหรับทำ Debug/Release ของคอมไพเลอร์
+Debug/
+Release/
